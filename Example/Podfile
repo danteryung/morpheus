@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'morpheus_Example' do
+  pod 'morpheus', :path => '../'
+
+  target 'morpheus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
