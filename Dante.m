@@ -14,4 +14,10 @@
     NSLog(@"dantexxxxxxxx");
 }
 
+-(void)dantetext2
+{
+    NSLog(@"dantexxxxxxxx2222");
+}
+
+
 @end

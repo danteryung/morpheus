@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Dante : NSObject
 
 -(void)dantetext;
+-(void)dantetext2;
+
 
 @end
 
