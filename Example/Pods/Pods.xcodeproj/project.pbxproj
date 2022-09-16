@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		020C0B3005F14518610AC70A52D5D5E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		09C26EF8917A2FB38261440408CDF812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		151F295628D40CEA005AD7B2 /* Dante.h in Headers */ = {isa = PBXBuildFile; fileRef = 151F295428D40CEA005AD7B2 /* Dante.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		151F295728D40CEA005AD7B2 /* Dante.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F295528D40CEA005AD7B2 /* Dante.m */; };
+		151F295A28D418B0005AD7B2 /* Dante.h in Headers */ = {isa = PBXBuildFile; fileRef = 151F295828D418B0005AD7B2 /* Dante.h */; };
+		151F295B28D418B0005AD7B2 /* Dante.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F295928D418B0005AD7B2 /* Dante.m */; };
 		2A318B3C7466169D88E7D5481199C20C /* morpheus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09CDBB6B545E32C7BDC6782146A927 /* morpheus-dummy.m */; };
 		536882B7E335B476DB688015AD862B17 /* Pods-morpheus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB40E9CA79A43B5BD57D397F7737E848 /* Pods-morpheus_Tests-dummy.m */; };
 		590842ABC61D1B28B3FF3D8D9A1C1F51 /* Pods-morpheus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEDD300CE0FD929E043E5D37B5AB6D6 /* Pods-morpheus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		15161DE4DD0B11DF6890D9C11ED89F3F /* Pods-morpheus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-morpheus_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		151F295428D40CEA005AD7B2 /* Dante.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dante.h; sourceTree = "<group>"; };
-		151F295528D40CEA005AD7B2 /* Dante.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dante.m; sourceTree = "<group>"; };
+		151F295828D418B0005AD7B2 /* Dante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dante.h; path = morpheus/Classes/Dante.h; sourceTree = "<group>"; };
+		151F295928D418B0005AD7B2 /* Dante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dante.m; path = morpheus/Classes/Dante.m; sourceTree = "<group>"; };
 		1EBB32FB9CF5C8EEBA0A70E4F3DAC19A /* morpheus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = morpheus.release.xcconfig; sourceTree = "<group>"; };
 		2F2756420EC9D5929A57C7A6CC86F5E6 /* Pods-morpheus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-morpheus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2F92E772E62DDB5F43C6DC9B5CACDF18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -122,10 +122,10 @@
 		72A286F3AE587FCC2A49C748946430B6 /* morpheus */ = {
 			isa = PBXGroup;
 			children = (
+				151F295828D418B0005AD7B2 /* Dante.h */,
+				151F295928D418B0005AD7B2 /* Dante.m */,
 				9B83061AD6B70305551A1AD02721119C /* Pod */,
 				ECF2040D6FC11B8460FD58D4B8E0FC0D /* Support Files */,
-				151F295428D40CEA005AD7B2 /* Dante.h */,
-				151F295528D40CEA005AD7B2 /* Dante.m */,
 			);
 			name = morpheus;
 			path = ../..;
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88473C306CC3166767690CDEFDCB9FDD /* morpheus-umbrella.h in Headers */,
-				151F295628D40CEA005AD7B2 /* Dante.h in Headers */,
+				151F295A28D418B0005AD7B2 /* Dante.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151F295728D40CEA005AD7B2 /* Dante.m in Sources */,
+				151F295B28D418B0005AD7B2 /* Dante.m in Sources */,
 				2A318B3C7466169D88E7D5481199C20C /* morpheus-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
