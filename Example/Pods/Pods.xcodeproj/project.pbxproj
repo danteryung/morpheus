@@ -48,7 +48,7 @@
 		30BD6755F7CB16DA8235343B4D715D32 /* Pods-morpheus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-morpheus_Example.modulemap"; sourceTree = "<group>"; };
 		3B1D8F9571B28B8EE745B61DEE13B69D /* Pods-morpheus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-morpheus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43E2A645B8134A5B55C50884580450E0 /* morpheus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = morpheus.modulemap; sourceTree = "<group>"; };
-		5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods-morpheus_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-morpheus_Tests"; path = Pods_morpheus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods_morpheus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_morpheus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		600DB8BB5E8D06778BA2292E17073C0B /* Pods-morpheus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-morpheus_Example-dummy.m"; sourceTree = "<group>"; };
 		6212B1E2CFDD1307CDEDA667EE6626E4 /* morpheus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = morpheus.debug.xcconfig; sourceTree = "<group>"; };
 		6793FE2174173D6C19957E2ECE7427CC /* Pods-morpheus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-morpheus_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		9EEDD300CE0FD929E043E5D37B5AB6D6 /* Pods-morpheus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-morpheus_Example-umbrella.h"; sourceTree = "<group>"; };
 		AB09CDBB6B545E32C7BDC6782146A927 /* morpheus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "morpheus-dummy.m"; sourceTree = "<group>"; };
 		AB40E9CA79A43B5BD57D397F7737E848 /* Pods-morpheus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-morpheus_Tests-dummy.m"; sourceTree = "<group>"; };
-		ACFA47D679E6BD3A75C709C37183F18A /* Pods-morpheus_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-morpheus_Example"; path = Pods_morpheus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFA47D679E6BD3A75C709C37183F18A /* Pods_morpheus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_morpheus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FBEC5A0F6F8E7C5E7F2CA634A0E03B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE756375E96A5AA74C5018FA871291D0 /* morpheus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = morpheus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FD2E957A2E8876DE176F5AEE5ACDC5 /* Pods-morpheus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-morpheus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				CE756375E96A5AA74C5018FA871291D0 /* morpheus.framework */,
-				ACFA47D679E6BD3A75C709C37183F18A /* Pods-morpheus_Example */,
-				5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods-morpheus_Tests */,
+				ACFA47D679E6BD3A75C709C37183F18A /* Pods_morpheus_Example.framework */,
+				5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods_morpheus_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			);
 			name = "Pods-morpheus_Tests";
 			productName = Pods_morpheus_Tests;
-			productReference = 5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods-morpheus_Tests */;
+			productReference = 5BF960CE1CC1B6ECC657B0FF4946A1A8 /* Pods_morpheus_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AE5F1FE8445FE383CA5DB8E0B4DFBAC6 /* Pods-morpheus_Example */ = {
@@ -292,7 +292,7 @@
 			);
 			name = "Pods-morpheus_Example";
 			productName = Pods_morpheus_Example;
-			productReference = ACFA47D679E6BD3A75C709C37183F18A /* Pods-morpheus_Example */;
+			productReference = ACFA47D679E6BD3A75C709C37183F18A /* Pods_morpheus_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF1D8421AC138A3C26BAFF39A5CCDF09 /* morpheus */ = {
@@ -458,7 +458,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-morpheus_Example/Pods-morpheus_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-morpheus_Example/Pods-morpheus_Example.modulemap";
@@ -491,7 +491,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-morpheus_Tests/Pods-morpheus_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-morpheus_Tests/Pods-morpheus_Tests.modulemap";
@@ -558,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -616,7 +616,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-morpheus_Tests/Pods-morpheus_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-morpheus_Tests/Pods-morpheus_Tests.modulemap";
@@ -687,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -716,7 +716,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-morpheus_Example/Pods-morpheus_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-morpheus_Example/Pods-morpheus_Example.modulemap";
