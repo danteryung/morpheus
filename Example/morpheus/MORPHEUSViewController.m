@@ -7,6 +7,7 @@
 //
 
 #import "MORPHEUSViewController.h"
+#import <morpheus/Dante.h>
 
 @interface MORPHEUSViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    Dante *dante = [[Dante alloc] init];
+    [dante dantetext];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

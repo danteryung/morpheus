@@ -1,0 +1,16 @@
+PODS:
+  - morpheus (0.1.0)
+
+DEPENDENCIES:
+  - morpheus (from `../`)
+
+EXTERNAL SOURCES:
+  morpheus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  morpheus: fe7d96e2505801092debad3de39ab7f1c640b555
+
+PODFILE CHECKSUM: 7a52e6d0801a379ce753afdc119a74698927ec22
+
+COCOAPODS: 1.11.3
