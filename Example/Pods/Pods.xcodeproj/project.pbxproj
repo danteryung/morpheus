@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		020C0B3005F14518610AC70A52D5D5E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		09C26EF8917A2FB38261440408CDF812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		151F295A28D418B0005AD7B2 /* Dante.h in Headers */ = {isa = PBXBuildFile; fileRef = 151F295828D418B0005AD7B2 /* Dante.h */; };
+		151F295A28D418B0005AD7B2 /* Dante.h in Headers */ = {isa = PBXBuildFile; fileRef = 151F295828D418B0005AD7B2 /* Dante.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		151F295B28D418B0005AD7B2 /* Dante.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F295928D418B0005AD7B2 /* Dante.m */; };
 		2A318B3C7466169D88E7D5481199C20C /* morpheus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09CDBB6B545E32C7BDC6782146A927 /* morpheus-dummy.m */; };
 		536882B7E335B476DB688015AD862B17 /* Pods-morpheus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB40E9CA79A43B5BD57D397F7737E848 /* Pods-morpheus_Tests-dummy.m */; };
